@@ -1,20 +1,20 @@
 # cash-register-app
 Cash Register
 
-#Introduction
-    This Cash register application is develop for client demo purposes only.
+# Introduction
+  This Cash register application is developed for client demo purposes only.
 
-#Required Tools
+# Required Tools
 - git
 - maven 3
 - java 8 (LTS) or 11 (LTS)
 
-#Clone The Project Repository
+# Clone The Project Repository
 ```
 $ git clone https://github.com/rnl2004/cash-register-app.git
 ```
 
-#Build The Application
+# Build The Application
 ```
 $ cd cash-register-app
 $ mvn clean install
@@ -22,7 +22,7 @@ $ mvn clean install
 NOTE: It will create a jar file within target folder
 ```
 
-#To Run The Unit Test
+# To Run The Unit Test
 ```
 $ mvn test
 
@@ -60,7 +60,7 @@ Output:
 [INFO] ------------------------------------------------------------------------
 ```
 
-#Run The Cash Register Application in Console
+# Run The Cash Register Application in Console
 ```
 $ java -jar target/cashregister-0.0.1-SNAPSHOT.jar
   .   ____          _            __ _ _
