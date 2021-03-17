@@ -59,12 +59,12 @@ public class CashRegisterBillsServiceImpl implements CashRegisterBillsService {
     @Override
     public Map<Integer, Integer> change(Map<Integer, Integer> currentBillsState, Integer amountToChange) {
         logger.info("change " + amountToChange);
-        domination(currentBillsState, amountToChange);
+        dinomination(currentBillsState, amountToChange);
         return null;
     }
 
     @Override
-    public Map<Integer, Integer> domination(Map<Integer, Integer> currentBillsState, Integer amountToChange) {
+    public Map<Integer, Integer> dinomination(Map<Integer, Integer> currentBillsState, Integer amountToChange) {
         int c = amountToChange, count;
         Map<Integer, Integer> reverseMapKeys = currentBillsState.entrySet()
                 .stream()

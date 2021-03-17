@@ -18,8 +18,8 @@ public interface CashRegisterBillsService {
     /** This method is used to get the change from the cash register */
     Map<Integer, Integer> change(Map<Integer, Integer> currentBillsState, Integer amountToChange);
 
-    /** This method is used to compute domination based on user inputted amount */
-    Map<Integer, Integer> domination(Map<Integer, Integer> currentBillsState, Integer amountToChange);
+    /** This method is used to compute dinomination based on user inputted amount */
+    Map<Integer, Integer> dinomination(Map<Integer, Integer> currentBillsState, Integer amountToChange);
 
     /** This method is used to extract args values form user input */
     Integer[] splitCommandArgs(String[] strArgs);
